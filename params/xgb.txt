@@ -1,0 +1,30 @@
+params = {
+	"objective":"reg:linear",
+	"eta":0.01,
+	"min_child_weight":5,
+	"subsample":0.8,
+	"colsample_bytree":0.8,
+	"lambda":0.1,
+	"seed":42,
+	"silent":1,
+	"verbose":0,
+	"max_depth":6,
+	"alpha":0,
+	"gamma":0
+	}
+线上0.8527
+修改参数：
+params = {
+	"objective":"reg:linear",
+	"eta":0.015,
+	"min_child_weight":7,
+	"subsample":0.8,
+	"colsample_bytree":0.8,
+	"lambda":0.1,
+	"seed":42,
+	"silent":1,
+	"verbose":0,
+	"max_depth":6,
+	"alpha":0,
+	"gamma":0.3
+	}

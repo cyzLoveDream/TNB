@@ -1,0 +1,4 @@
+Ìî³äÈ±Ê§Öµ£º
+n_estimators = 20
+min_samples_leaf = 20
+random_state = 1024

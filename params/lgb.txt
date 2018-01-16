@@ -1,0 +1,17 @@
+params = {
+	'learning_rate': 0.01,
+	'boosting_type': 'gbdt',
+	'objective': 'regression',
+	'metric': 'mse',
+	'sub_feature': 0.7,
+	'num_leaves': 32,
+	'min_data_in_leaf': 25,
+	'bagging_fraction':0.8,
+	"feature_fraction":0.7,
+	'min_sum_hessian_in_leaf': 1,
+	'verbose': -1,
+	"max_depth":6,
+	"max_bin":150,
+	"lambda_l2":0.3
+	}
+œﬂ…œ£∫8645

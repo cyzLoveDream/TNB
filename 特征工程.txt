@@ -1,0 +1,69 @@
+feature_0: 10-40
+feature_1: 10-40
+feature_1/feature_0:  小于1，比值
+feature_2: 40-150
+feature_3: 11-61 < 50 男：11-50 女：7-32
+feature_4: 60-80
+feature_5: 40-55
+feature_6: 20-30
+feature_5/feature_6 (白蛋白/球蛋白) 1.5-2.5：1
+feature_4 - feature_6 （清蛋白）
+(feature_4 - feature_6)/feature_6 （清蛋白/球蛋白） 是否在（1.5-2.5）：1
+feature_8: 0.48-1.82  1.7以下 
+feature_9: 2.9-6  5.7以下
+feature_10:1.16-1.55 (老年人偏高) 女是否小于1.2 男是否小于1.1
+feature_11:2.84-3.12(老年人偏高) 是否超过2.6   3.12以下
+feature_11/feature_10 （极低密度脂蛋白胆固醇）
+feature_12:1.7-8.3
+feature_13: 男性：53-106，女性：44-97
+feature_14: 男：150-416 女：89-357  男是否>420 女是否>350
+feature_20: 4-10
+feature_21: 男：4.0-5.5 女：3.5-5.0
+feature_22: 男：120-160，女：110-150  正常人：90-110属于轻度贫血、60-90：中度贫血、30-60重度贫血
+feature_23: 男：0.4-0.5 女： 0.37-0.48  
+feature_24: 80-100
+feature_25: 27-34
+feature_26: 320-360
+feature_27:11.5-14.5
+feature_28: 100-300   是否50以下
+feature_29:9-13
+feature_30:9-17
+feature_31:0.13-0.43
+
+feature_32: 50-70
+feature_20 * feature_32 (中性粒细胞个数）
+feature_33: 20-40
+feature_20 * feature_33 (淋巴细胞个数)
+feature_34: 3-8
+feature_20 * feature_34 (单核细胞个数)
+feature_35: 0.5-5
+feature_20 * feature_35 (嗜酸细胞个数)
+feature_36: 0-1
+feature_20 * feature_36 (嗜碱细胞个数)
+
+2018/1/10
+feature_28 * feature_31 (大血板数)（新）
+feature_0 * 0.8 (ASTs)
+feature_0 * 0.2 (ASTm)
+feature_0 + feature_1
+drop(feature_1)
+feature_0_age_mean_sub
+feature_1_age_mean_sub
+feature_3_age_mean_sub
+feature_4 < 60
+feature_5 < 25
+feature_4 + feature_5 (STP&A)
+feature_4 + feature_6 (STP&G)
+feature_10_age_gender_mean_sub
+feature_11_age_gender_mean_sub
+feature_13_age_gender_mean_sub
+feature_14_age_gender_mean_sub
+feature_21_age_gender_mean_sub
+feature_22_age_gender_mean_sub
+feature_23_age_gender_mean_sub
+feature_8_age_gender_mean_sub
+feature_9_age_gender_mean_sub
+drop(feature_36)
+
+2018/1/15
+feature_22/feature_33
