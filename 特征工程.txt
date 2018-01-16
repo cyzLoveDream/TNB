@@ -1,6 +1,6 @@
 feature_0: 10-40
 feature_1: 10-40
-feature_1/feature_0:  小于1，比值
+feature_0/feature_1:  小于1，比值
 feature_2: 40-150
 feature_3: 11-61 < 50 男：11-50 女：7-32
 feature_4: 60-80
@@ -66,4 +66,6 @@ feature_9_age_gender_mean_sub
 drop(feature_36)
 
 2018/1/15
-feature_22/feature_33
+feature_32/feature_33
+feature_12/feature_13
+feature_8 + feature_9

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e211b2f5-aa2f-4950-992b-7faf02c4dd22" name="Default" comment="" />
+    <list default="true" id="e211b2f5-aa2f-4950-992b-7faf02c4dd22" name="Default" comment="modify lgb sub">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/submission/sub_xgb_15_2_h.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sigle_model_cv .xlsx" afterPath="$PROJECT_DIR$/sigle_model_cv .xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jupyter/feature_engineering.ipynb" afterPath="$PROJECT_DIR$/jupyter/feature_engineering.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lgb_with_no_cv.py" afterPath="$PROJECT_DIR$/lgb_with_no_cv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw_data/fea_test_1.csv" afterPath="$PROJECT_DIR$/raw_data/fea_test_1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw_data/fea_train_1.csv" afterPath="$PROJECT_DIR$/raw_data/fea_train_1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xgb_with_no_cv.py" afterPath="$PROJECT_DIR$/xgb_with_no_cv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/特征工程.txt" afterPath="$PROJECT_DIR$/特征工程.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +35,7 @@
       <file leaf-file-name="xgb_baseline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xgb_baseline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="1513">
               <caret line="98" column="65" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="98" selection-end-column="65" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -33,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xgb_with_no_cv.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="xgb_with_no_cv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xgb_with_no_cv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,8 +59,8 @@
       <file leaf-file-name="lgb_baseLine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lgb_baseLine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="1547">
+              <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#1843#1991#0" expanded="false" />
@@ -58,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lgb_with_no_cv.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lgb_with_no_cv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lgb_with_no_cv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="173">
+              <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -73,8 +84,8 @@
       <file leaf-file-name="cv_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            <state relative-caret-position="969">
+              <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -88,6 +99,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,8 +119,8 @@
         <option value="$PROJECT_DIR$/xgb_baseline.py" />
         <option value="$PROJECT_DIR$/lgb_baseLine.py" />
         <option value="$PROJECT_DIR$/cv_model.py" />
-        <option value="$PROJECT_DIR$/xgb_with_no_cv.py" />
         <option value="$PROJECT_DIR$/lgb_with_no_cv.py" />
+        <option value="$PROJECT_DIR$/xgb_with_no_cv.py" />
       </list>
     </option>
   </component>
@@ -122,6 +136,7 @@
     <option name="width" value="1370" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -137,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,6 +180,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -186,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lgb_with_no_cv">
+  <component name="RunManager" selected="Python.xgb_with_no_cv">
     <configuration default="false" name="lgb_baseLine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,8 +374,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lgb_with_no_cv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.xgb_with_no_cv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.xgb_with_no_cv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lgb_with_no_cv" />
         <item index="2" class="java.lang.String" itemvalue="Python.cv_model" />
         <item index="3" class="java.lang.String" itemvalue="Python.lgb_baseLine" />
         <item index="4" class="java.lang.String" itemvalue="Python.xgb_baseline" />
@@ -378,17 +393,25 @@
       <option name="presentableId" value="Default" />
       <updated>1514988742732</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify lgb sub">
+      <created>1516069571255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516069571255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1908397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19389313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46165884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46081504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -429,8 +452,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify lgb sub" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify lgb sub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -451,11 +496,20 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lgb_with_no_cv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fill_value.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="162" column="11" lean-forward="true" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
-          <folding>
-            <element signature="e#899#9577#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="85" column="55" lean-forward="false" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="26" column="81" lean-forward="true" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#899#9577#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="85" column="55" lean-forward="true" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="73" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="162" column="11" lean-forward="false" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
-          <folding>
-            <element signature="e#899#9577#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="85" column="55" lean-forward="false" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="535" column="33" lean-forward="false" selection-start-line="535" selection-start-column="33" selection-end-line="535" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,13 +713,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-455">
           <caret line="352" column="6" lean-forward="false" selection-start-line="352" selection-start-column="6" selection-end-line="352" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xgb_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1513">
           <caret line="98" column="65" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="98" selection-end-column="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -697,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lgb_baseLine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="1547">
+          <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1843#1991#0" expanded="false" />
@@ -708,26 +739,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="969">
+          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xgb_with_no_cv.py">
+    <entry file="file://$PROJECT_DIR$/lgb_with_no_cv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="173">
+          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lgb_with_no_cv.py">
+    <entry file="file://$PROJECT_DIR$/xgb_with_no_cv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="190">
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

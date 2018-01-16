@@ -56,7 +56,7 @@ params = {
     'num_leaves': 12,
     'max_depth':9,
     'max_bin':130,
-    'feature_fraction': 0.65,
+    'feature_fraction': 0.9,
     'reg_lambda':50,
     'min_data': 25,
     'min_child_weight':0.001,
@@ -74,4 +74,4 @@ submission = pd.DataFrame({'pred': test_pred})
 val_pred = gbm.predict(X_test[predictors], num_iteration=gbm.best_iteration)
 print("线下误差：", mean_squared_error(y_test,  val_pred) * 0.5)
 print(submission.describe(), train["血糖"].describe(),pd.DataFrame(val_pred).describe() ,y_test.describe())
-submission.to_csv(r'./submission/sub_lgb_16_1_c.csv',header=False,index=False)
+# submission.to_csv(r'./submission/sub_lgb_16_1_c.csv',header=False,index=False)
