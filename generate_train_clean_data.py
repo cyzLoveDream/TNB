@@ -28,13 +28,13 @@ def clean_train_data(file_name):
 	print("finish clean data...")
 	df_data_without_nan = df_data.dropna(axis=0,how='any')
 	# df_data_without_nan.rename(columns=re_fea_rename,inplace=True)
-	base_train_name = './clean_data/base_train.csv'
+	base_train_name = '../clean_data/base_train.csv'
 	df_data_without_nan.to_csv(base_train_name,encoding='gbk',index=False)
 	no_index = [x for x in list(df_data.index) if x not in list(df_data_without_nan.index)]
-	train_with_nan_name = "./pre_clean_data/train_with_nan.csv"
+	train_with_nan_name = "../pre_clean_data/train_with_nan.csv"
 	df_data.ix[no_index,:].to_csv(train_with_nan_name,encoding="gbk",index=False)
 	return base_train_name, train_with_nan_name
 def main():
-	clean_train_data('./raw_data/d_train.csv')
+	clean_train_data('../raw_data/d_train.csv')
 if __name__ == '__main__':
 	main()

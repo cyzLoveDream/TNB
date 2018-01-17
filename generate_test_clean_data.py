@@ -14,13 +14,13 @@ def clean_test_data(file_name):
 	df_test["gender"] = df_test.gender.apply(lambda x: 1 if x == "男" else 0)
 	df_test.rename(columns=fea_rename,inplace=True)
 	df_test.drop(["feature_15","feature_16","feature_17","feature_18","feature_19"],axis=1,inplace=True)
-	pre_test_name = './pre_clean_data/pre_test.csv'
+	pre_test_name = '../pre_clean_data/pre_test.csv'
 	df_test.to_csv(pre_test_name,index=False,encoding='gbk')
 	print("finish...")
 	return pre_test_name
 def main():
 	
-	clean_test_data('./raw_data/d_test_A.csv')
+	clean_test_data('../raw_data/d_test_A.csv')
 
 if __name__ == '__main__':
 	main()
