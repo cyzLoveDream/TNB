@@ -33,7 +33,7 @@ def fill_test(file_name,base_name):
 		rf_pre_data[c] = [round((2 * x * mean) / (x + mean),3) for x in list(lasso.predict(tests))]
 		df_test_nan.ix[rf_pre_data.index,c] = rf_pre_data[c]
 		print("have been fill:",c)
-	test_name = "./clean_data/test.csv"
+	test_name = "./clean_data/testB.csv"
 	df_test_nan.to_csv(test_name,encoding='gbk',index=False)
 	return test_name
 
@@ -42,7 +42,7 @@ def fill_train(file_name, base_name):
 	df_train_nan = pd.read_csv(file_name,encoding='gbk')
 	cols = list(df_train_nan.columns)
 	with_nan_cols = [k for k,v in zip(list(df_train_nan.columns),list(df_train_nan.isnull().any())) if
-	                 v == True and k not in ['id',"date","blood_sugar","blood_sugar_log"]]
+	                 v == True and k not in ["id","date","blood_sugar","blood_sugar_log"]]
 	print("have nan's columns: ", with_nan_cols)
 	model_fill_name = "./clean_data/model_fill_train.csv"
 	for c in cols:

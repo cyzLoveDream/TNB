@@ -28,7 +28,7 @@ feature_27:11.5-14.5
 feature_28: 100-300   是否50以下
 feature_29:9-13
 feature_30:9-17
-feature_31:0.13-0.43
+feature_31:0.11-0.23（改）
 
 feature_32: 50-70
 feature_20 * feature_32 (中性粒细胞个数）
@@ -69,3 +69,13 @@ drop(feature_36)
 feature_32/feature_33
 feature_12/feature_13
 feature_8 + feature_9
+
+2018/1/17
+feature_9 * 0.725
+feature_9 > 5.72
+feature_8 > 1.7
+feature_10 < 1.29
+feature_11 >3.12
+feature_28 + feature_29 若mpv随血小板数持续下降，是骨髓造血功能衰竭的标志之一
+feature_28 / feature_31 总体积
+feature_28 * feature_29 血小板压积

@@ -13,7 +13,7 @@ def clean_data():
 	:return:
 	"""
 	train_name = './raw_data/d_train.csv'
-	test_name = './raw_data/d_test_A.csv'
+	test_name = './raw_data/d_test_B_20180128.csv'
 	now = time.time()
 	base_train_name,train_with_nan_name = clean_train_data(train_name)
 	pre_test_name = clean_test_data(test_name)
@@ -97,7 +97,7 @@ def generate_1(all_data):
 	all_data["feature_28_is_normal"] = all_data["feature_28"].apply(lambda x: 0 if x < 100 else (2 if x > 300 else 1))
 	all_data["feature_29_is_normal"] = all_data["feature_29"].apply(lambda x: 0 if x < 9 else (2 if x > 13 else 1))
 	all_data["feature_30_is_normal"] = all_data["feature_30"].apply(lambda x: 0 if x < 9 else (2 if x > 17 else 1))
-	all_data["feature_31_is_normal"] = all_data["feature_31"].apply(lambda x: 0 if x < 0.13 else (2 if x > 0.43 else 1))
+	all_data["feature_31_is_normal"] = all_data["feature_31"].apply(lambda x: 0 if x < 0.13 else (2 if x > 0.23 else 1))
 	all_data["feature_32_is_normal"] = all_data["feature_32"].apply(lambda x: 0 if x < 50 else (2 if x > 70 else 1))
 	all_data["feature_20_feature_32"] = round(all_data["feature_20"] * all_data['feature_32'],3)
 	all_data["feature_33_is_normal"] = all_data["feature_33"].apply(lambda x: 0 if x < 20 else (2 if x > 40 else 1))
@@ -150,7 +150,7 @@ def generate_feature(base_train_name,model_fill_name,tests_name):
 	            'feature_20_feature_35','feature_36_is_normal',
 	            'feature_20_feature_36',"id"]
 	train[cate_fea].to_csv("./raw_data/fea_train.csv",index=False)
-	tests[cate_fea].to_csv("./raw_data/fea_test.csv",index=False)
+	tests[cate_fea].to_csv("./raw_data/fea_test_B.csv",index=False)
 	all_data = generate_2(all_data)
 	all_data = all_data[["id",'feature_28_feature_31','ATSs','ATSm',
 	                     'feature_0_feature_1','feature_4_less_60','feature_5_less_25',
@@ -158,11 +158,11 @@ def generate_feature(base_train_name,model_fill_name,tests_name):
 	train = all_data[:trains.shape[0] + vals.shape[0]]
 	tests = all_data[trains.shape[0] + vals.shape[0]:]
 	train.to_csv("./raw_data/fea_train_1.csv",index=False)
-	tests.to_csv("./raw_data/fea_test_1.csv",index=False)
+	tests.to_csv("./raw_data/fea_test_B_1.csv",index=False)
 	print("finish generate feature...")
 def main():
 	base_train_name,model_fill_name,tests = clean_data()
-	generate_feature(base_train_name, model_fill_name, tests)
+	# generate_feature(base_train_name, model_fill_name, tests)
 	pass
 
 if __name__ == '__main__':
